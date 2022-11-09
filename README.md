@@ -11,22 +11,22 @@ Endpoint: `/api/v1/sensor`<br/>
 Body: 
 ```json
 {
-    "panel_chain": 2,
-    "panel_voltage": 22,
-    "battery_chain": 2
+    "panel_chain": number,
+    "panel_voltage": number,
+    "battery_chain": number
 }
 ```
 Resposta: 
 ```json
 {
-    "success": true,
+    "success": booolean (true | false),
     "data": {
-        "id": 4,
-        "panel_chain": 2,
-        "panel_voltage": 22,
-        "battery_chain": 2,
-        "updatedAt": "2022-11-09T19:13:33.560Z",
-        "createdAt": "2022-11-09T19:13:33.560Z"
+        "id": number,
+        "panel_chain": number,
+        "panel_voltage": number,
+        "battery_chain": number,
+        "updatedAt": date,
+        "createdAt": date
     }
 }
 ```
@@ -39,12 +39,12 @@ Resposta:
 ```json
 [
     {
-        "id": 4,
-        "panel_chain": 2,
-        "panel_voltage": 22,
-        "battery_chain": 2,
-        "createdAt": "2022-11-09T19:13:33.000Z",
-        "updatedAt": "2022-11-09T19:13:33.000Z"
+        "id": number,
+        "panel_chain": number,
+        "panel_voltage": number,
+        "battery_chain": number,
+        "updatedAt": date,
+        "createdAt": date
     }
 ]
 ```
