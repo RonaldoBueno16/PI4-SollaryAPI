@@ -1,6 +1,6 @@
 # API
 
-Endereço: http://198.100.155.70:7655
+Endereço: http://vps-e0f0b0d2.vps.ovh.ca:7655/
 
 # Rotas
 
