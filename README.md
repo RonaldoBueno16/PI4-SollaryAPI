@@ -7,7 +7,7 @@ Endereço: http://vps-e0f0b0d2.vps.ovh.ca:7655/
 ## 1 - Inserir dados no banco de dados
 
 Metodo: `POST`<br/>
-Endpoint: `/api/v1/sensor_lastrecord`<br/>
+Endpoint: `/api/v1/sensor`<br/>
 Body: 
 ```json
 {
