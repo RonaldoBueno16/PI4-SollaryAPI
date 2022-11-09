@@ -1,0 +1,31 @@
+{
+  "name": "PAGSAMP",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Ronaldo Bueno",
+  "dependencies": {
+    "axios": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "googleapis": "^108.0.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "sequelize": "^6.25.5",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.8.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  }
+}

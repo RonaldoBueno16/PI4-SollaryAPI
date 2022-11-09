@@ -1,0 +1,1 @@
+export type Servers = 'shox' | 'ug' | 'rippzy';
