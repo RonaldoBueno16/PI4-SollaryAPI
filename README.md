@@ -9,7 +9,7 @@ Endereço: http://vps-e0f0b0d2.vps.ovh.ca:7655/
 Metodo: `POST`<br/>
 Endpoint: `/api/v1/sensor`<br/>
 Body: 
-```json
+```javascript
 {
     "panel_chain": number,
     "panel_voltage": number,
@@ -17,7 +17,7 @@ Body:
 }
 ```
 Resposta: 
-```json
+```javascript
 {
     "success": booolean (true | false),
     "data": {
@@ -36,7 +36,7 @@ Resposta:
 Metodo: `GET`<br/>
 Endpoint: `/api/v1/sensor_lastrecord`<br/>
 Resposta: 
-```json
+```javascript
 [
     {
         "id": number,
